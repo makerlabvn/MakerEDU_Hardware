@@ -1060,7 +1060,7 @@ namespace ds3231 {
      * To determine this "Date" of Month of Year is what "Day of the Week"?
      * The Week begin Sunday with number 0
      * 
-     * Way Tomohiko Sakamoto’s used the "Doomsday Algorithm" to determine the Day of the Week!
+     * Way Tomohiko Sakamoto's used the "Doomsday Algorithm" to determine the Day of the Week!
      */
     export function getDayOfWeek(y: number, m: number, d: number): number {
         const monthTable: number[] = [0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4];
