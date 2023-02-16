@@ -5,11 +5,15 @@
     "dependencies": {
         "core": "*",
         "microphone": "*",
-        "MakerEDU": "github:TrungKuro/MakerEDU#747674b48db422bddf8e8bdd3978137dd7d3260c"
+        "bluetooth": "*",
+        "devices": "*"
     },
     "files": [
         "main.ts",
-        "README.md"
+        "README.md",
+        "pxt-ds18b20.cpp",
+        "pxt-ds3231.cpp",
+        "shims.d.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -21,5 +25,16 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
 }
