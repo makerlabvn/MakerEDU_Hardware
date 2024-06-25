@@ -1,4 +1,4 @@
-[![Huong dan su dung micro:bit](/image/microbit.png)](https://www.youtube.com/watch?v=QjZL8yu3Uu4)
+[![Huong dan su dung micro:bit](/img/microbit.png)](https://www.youtube.com/watch?v=QjZL8yu3Uu4)
 
 ## Use as Extension
 
